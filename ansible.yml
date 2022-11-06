@@ -2,7 +2,7 @@
 - name: my first playbook
   hosts: localhost
   vars:
-    a: wwelcome to planet earth
+    a: orange city Nagpur
   tasks:
     - name: task1
       debug:
