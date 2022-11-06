@@ -2,7 +2,7 @@
 - name: my first playbook
   hosts: localhost
   vars:
-    a: welcome to cloudblitz
+    a: wwelcome to planet earth
   tasks:
     - name: task1
       debug:
