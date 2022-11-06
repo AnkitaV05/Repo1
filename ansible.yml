@@ -1,0 +1,9 @@
+---
+- name: my first playbook
+  hosts: localhost
+  vars:
+    a: welcome to cloudblitz
+  tasks:
+    - name: task1
+      debug:
+        msg: "{{a}}"
