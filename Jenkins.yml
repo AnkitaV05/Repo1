@@ -4,5 +4,5 @@ hosts: all
 tasks: 
    - name: task 1
      debug:
-     msg: "hello world"
+     msg: "good morning"
 ...
